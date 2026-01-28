@@ -78,13 +78,13 @@ body {
   text-align: center;
 }
 
-/* Main Title — Dominant */
+/* Main Title — Large but Controlled */
 .hero-content h1 {
   font-weight: 800;
-  font-size: clamp(5rem, 18vw, 16rem);
+  font-size: clamp(4rem, 16vw, 14rem);
   line-height: 0.85;
-  letter-spacing: -0.035em;
-  white-space: nowrap;
+  letter-spacing: -0.05em;
+  transform: scaleX(0.94);
 }
 
 /* Subtitle */
