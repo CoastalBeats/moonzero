@@ -2,43 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Moonzero — Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact — Moonzero</title>
 
-  <!-- Inter Variable -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@9..144,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap" rel="stylesheet">
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="contact-page">
 
-<header class="nav">
-  <a href="index.html" class="contact-btn">HOME</a>
-</header>
+  <!-- NAV -->
+  <header class="nav">
+    <a href="index.html" class="contact-btn">HOME</a>
+  </header>
 
-<section class="contact-section">
+  <!-- CONTACT CONTENT -->
+  <div class="contact-wrapper">
+    <h1>Contact</h1>
 
-  <h1>Contact</h1>
+    <form action="https://formspree.io/f/xlgbkqbo" method="POST" class="contact-form">
+      
+      <input 
+        type="text" 
+        name="name" 
+        placeholder="Name" 
+        required
+      >
 
-  <form action="https://formspree.io/f/xlgbkqbo" method="POST">
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="Email" 
+        required
+      >
 
-    <!-- Custom subject line -->
-    <input type="hidden" name="_subject" value="Moonzero — New Enquiry">
+      <textarea 
+        name="message" 
+        placeholder="Message" 
+        required
+      ></textarea>
 
-    <!-- Source tag -->
-    <input type="hidden" name="source" value="moonzero-site">
+      <!-- Hidden field so you know it's Moonzero -->
+      <input type="hidden" name="source" value="Moonzero Website">
 
-    <input type="text" name="name" placeholder="Name" required>
+      <button type="submit">Send</button>
 
-    <input type="email" name="email" placeholder="Email" required>
-
-    <textarea name="message" placeholder="Message" rows="6" required></textarea>
-
-    <button type="submit">Send</button>
-
-  </form>
-
-</section>
+    </form>
+  </div>
 
 </body>
 </html>
