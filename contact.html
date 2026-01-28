@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact — Moonzero</title>
 
+  <!-- Inter Variable -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@9..144,100..900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -19,11 +21,24 @@
 
   <h1>Contact</h1>
 
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <form action="https://formspree.io/f/xlgbkqbo" method="POST">
+
+    <!-- Optional subject line -->
+    <input type="hidden" name="_subject" value="New Moonzero Contact Submission">
+
+    <!-- Optional redirect after success -->
+    <!--
+    <input type="hidden" name="_redirect" value="https://coastalbeats.github.io/moonzero/">
+    -->
+
     <input type="text" name="name" placeholder="Name" required>
+
     <input type="email" name="email" placeholder="Email" required>
-    <textarea name="message" placeholder="Message" rows="5" required></textarea>
+
+    <textarea name="message" placeholder="Message" rows="6" required></textarea>
+
     <button type="submit">Send</button>
+
   </form>
 
 </section>
