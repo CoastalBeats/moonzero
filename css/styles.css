@@ -194,3 +194,66 @@ body {
   background: white;
   color: black;
 }
+/* ------------------------
+   CONTACT PAGE FIX
+------------------------- */
+
+body.contact-page .nav {
+  position: relative;
+  padding: 30px 60px;
+}
+
+body.contact-page {
+  background: #000;
+  min-height: 100vh;
+}
+
+.contact-wrapper {
+  max-width: 600px;
+  margin: 100px auto 0 auto;
+  padding: 0 20px;
+}
+
+.contact-wrapper h1 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 16px;
+  background: #111;
+  border: 1px solid #333;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 16px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: white;
+  color: black;
+}
