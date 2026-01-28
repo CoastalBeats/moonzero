@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   background: #000;
   color: #fff;
 }
@@ -80,17 +80,13 @@ body {
   text-align: center;
 }
 
-/* Main Title */
-
 .hero-content h1 {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 15vw;
   line-height: 0.9;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   white-space: nowrap;
 }
-
-/* Subtitle */
 
 .hero-content p {
   margin-top: 35px;
@@ -99,7 +95,7 @@ body {
   font-weight: 500;
 }
 
-/* Contact Page */
+/* Contact */
 
 .contact-page {
   background: #111;
@@ -132,7 +128,7 @@ input, textarea {
   padding: 14px;
   border: none;
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 button {
