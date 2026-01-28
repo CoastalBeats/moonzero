@@ -131,3 +131,66 @@ body {
   line-height: 1.8;
   font-weight: 300;
 }
+/* ------------------------
+   CONTACT PAGE
+------------------------- */
+
+.contact-page {
+  min-height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 20px;
+}
+
+.contact-wrapper {
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-wrapper h1 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  background: #111;
+  border: 1px solid #333;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 14px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: white;
+  color: black;
+}
