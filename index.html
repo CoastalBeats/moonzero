@@ -2,36 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moonzero</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Inter Variable -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@9..144,100..900&display=swap" rel="stylesheet">
+  <!-- Inter Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
 
-<header class="nav">
-  <div></div>
-  <a href="contact.html" class="contact-btn">CONTACT</a>
-</header>
+  <!-- HERO -->
+  <section class="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
 
-<section class="hero">
+    <div class="hero-overlay"></div>
 
-  <video autoplay muted loop playsinline class="hero-video">
-    <source src="assets/hero.mp4" type="video/mp4">
-  </video>
+    <div class="hero-content">
+      <h1>MOONZERO</h1>
+      <p class="subtitle">Music & Sound for Screen</p>
+      <a href="#about" class="scroll-down">↓</a>
+    </div>
+  </section>
 
-  <div class="overlay"></div>
-
-  <div class="hero-content">
-    <h1>MOONZERO</h1>
-    <p>MUSIC & SOUND FOR SCREEN</p>
-  </div>
-
-</section>
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <h2>About</h2>
+      <p>
+        Moonzero is a collective of composers crafting music and sound for film, television, games and advertising. 
+        United by a shared commitment to storytelling, we create original scores that shape atmosphere, tension and emotional impact across screen.
+      </p>
+    </div>
+  </section>
 
 </body>
 </html>
